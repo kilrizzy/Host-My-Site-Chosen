@@ -1,0 +1,56 @@
+body{
+	background-color:#FF0000 !important;
+}
+#header{
+	height: 150px;
+	position: relative;
+}
+#header .logo{
+	display: none;
+}
+#header .top-user-info-row{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 960px;
+}
+#header #user_name{
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
+#header .shortcuts{
+	float: none;
+}
+#header #sub_caption{
+	display: none;
+}
+#header .top-logout{
+	display: none;
+}
+#header .top-help{
+	display: none;
+}
+
+#header .chzn-results{
+	width: 960px;
+	height: 90px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-top: 5px;
+	border-bottom:double 3px #DDD;
+}
+#header .chzn-results li{
+	display: none;
+	padding:5px;
+	font-size:9px;
+	float: left !important;
+	width: 210px !important;
+	margin-right:5px;
+	margin-bottom:5px;
+	background-color: #EEE;
+	border-radius: 3px;
+}
+#header .chzn-results li.active-result{
+	display: block !important;
+}
